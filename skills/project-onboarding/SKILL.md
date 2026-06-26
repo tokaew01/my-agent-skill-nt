@@ -5,7 +5,7 @@ compatibility: Node.js 22+, npm, Git, MariaDB
 license: MIT
 metadata:
   author: Akenarin Komkoon
-  version: "2.0.1"
+  version: "3.0.0"
 ---
 
 # Project Onboarding Skill
@@ -22,6 +22,7 @@ metadata:
 
 ให้้ตรวจและรัน script นี้ก่อน `.agents/skills/project-boarding/scripts/check-onboarding.sh`
 ถ้ารัน script ไม่ได้ ให้ตรวจเอง​:
+
 - `package.json`
 - `.env.example`
 - `prisma/schema.json`
@@ -55,6 +56,7 @@ npm run dev
 ถ้าถามเกี่ยวกับ setup หรือตั้งค่าโปรเจกต์ ให้ใช้ template ใน `assets/templates/setup-table.md` เท่านั้น
 
 ต้องมีอย่างน้อย:
+
 - ภาพรวมสั้น ๆ
 - ตารางขั้นตอน setup
 - คำสั่งที่ต้องรัน
